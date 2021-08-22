@@ -5,6 +5,8 @@
     line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {

@@ -5,6 +5,8 @@
     color: #FFFFFF;
     text-align: center;
     margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {

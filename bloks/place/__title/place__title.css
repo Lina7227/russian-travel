@@ -4,6 +4,8 @@
     font-weight: 900;
     line-height: 35px;
     color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {

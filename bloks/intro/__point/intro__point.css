@@ -6,6 +6,8 @@
     font-weight: 700;
     line-height: 18px;
     color: #FFFFFF;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {

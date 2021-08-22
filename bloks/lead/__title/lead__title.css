@@ -6,6 +6,8 @@
     line-height: 44px;
     color: #FFFFFF;
     text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {

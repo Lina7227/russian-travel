@@ -6,6 +6,8 @@
     text-decoration: none;
     margin: 0 0 32px 0;
     cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .footer__link:nth-of-type(5) {

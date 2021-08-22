@@ -6,6 +6,8 @@
     white-space: pre-line;
     color: #FFFFFF;
     text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {

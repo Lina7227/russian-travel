@@ -5,6 +5,8 @@
     line-height: 26px;
     color: #FFFFFF;
     white-space: pre-line;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .place__paragraph:nth-of-type(1) {

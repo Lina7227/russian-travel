@@ -6,4 +6,6 @@
     text-decoration: underline;
     color: #FFFFFF;
     cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }

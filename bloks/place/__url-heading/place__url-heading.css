@@ -5,6 +5,8 @@
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media (min-width: 768px) {
