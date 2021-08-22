@@ -1,0 +1,16 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+    .lead {
+        margin: 0 48px;
+    } 
+}
+
+@media (min-width: 1280px) {
+    .lead {
+        margin: 0 148px;
+    } 
+}

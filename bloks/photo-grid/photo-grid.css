@@ -1,0 +1,15 @@
+.photo-grid {
+    margin: 0 16px;
+}
+
+@media (min-width: 768px) {
+    .photo-grid {
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .photo-grid {
+        margin: 0 48px;
+    }
+}

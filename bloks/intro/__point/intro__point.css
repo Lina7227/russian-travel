@@ -1,0 +1,16 @@
+.intro__point {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px) {
+    .intro__point {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

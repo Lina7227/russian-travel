@@ -1,0 +1,42 @@
+.place__paragraph {
+    margin: 0 16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFFFFF;
+    white-space: pre-line;
+}
+
+.place__paragraph:nth-of-type(1) {
+    margin-top: 32px;
+}
+
+.place__paragraph:nth-of-type(2) {
+    margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+    .place__paragraph {
+        margin: 0  0 0 28px;
+    }
+
+    .place__paragraph:nth-of-type(1) {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        margin: 0  0 0 32px;
+    }
+
+    .place__paragraph:nth-of-type(2) {
+        margin-top: 26px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        margin: 0  0 0 40px;
+    }
+}

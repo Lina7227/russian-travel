@@ -1,0 +1,22 @@
+.footer {
+    margin: 0 0 24px 16px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        margin: 0 24px 24px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        margin: 0 48px 24px;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}

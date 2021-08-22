@@ -1,0 +1,15 @@
+.intro__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    white-space: pre-line;
+    color: #FFFFFF;
+    margin: 0 0 34px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .intro__subtitle {
+        margin: 0 0 33px;
+    }
+}

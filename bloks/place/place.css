@@ -1,0 +1,24 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+@media (min-width: 768px) {
+    .place {
+        grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .place {
+        grid-template-columns: repeat(auto-fit, minmax(464px,1fr));
+    }
+    
+}
+
+@media (min-width: 1280px) {
+    .place {
+        grid-template-columns: repeat(auto-fit, minmax(492px,1fr));
+    }
+}

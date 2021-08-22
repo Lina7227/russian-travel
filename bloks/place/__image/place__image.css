@@ -1,0 +1,22 @@
+.place__image {
+    margin: 0;
+    width: 320px;
+}
+
+@media (min-width: 768px) {
+    .place__image {
+        width: 340px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__image {
+        width: 440px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .place__image {
+        width: 460px;
+    }
+}

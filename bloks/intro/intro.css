@@ -1,0 +1,24 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin: 64px 16px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        margin: 88px 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        margin: 92px 286px 92px 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        margin: 92px 442px 92px 148px;
+    }
+}
