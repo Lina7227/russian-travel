@@ -14,13 +14,13 @@
     .intro__title {
         font-size: 54px;
         font-weight: 900;
-        line-height: 58px;  
-        width: 100%;  
+        line-height: 58px;
+        width: 100%;
     }
 }
 
 @media (min-width: 1024px) {
-    .intro__title { 
-        width: 800px;  
+    .intro__title {
+        width: 800px;
     }
 }
