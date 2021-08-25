@@ -1,6 +1,7 @@
 .place__image {
     margin: 0;
     width: 320px;
+    grid-area: image;
 }
 
 @media (min-width: 768px) {

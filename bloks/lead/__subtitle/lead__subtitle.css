@@ -3,7 +3,6 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
-    white-space: pre-line;
     color: #FFFFFF;
     text-align: center;
     -webkit-font-smoothing: antialiased;
@@ -15,7 +14,7 @@
         margin: 32px auto 56px;
         font-size: 30px;  
         line-height: 36px;
-        width: 70%;
+        width: 80%;
         text-align: center;
     }
 }

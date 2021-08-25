@@ -4,14 +4,14 @@
     line-height: 24px;
     color: #FFFFFF;
     text-decoration: none;
-    margin: 0 0 32px 0;
+    margin: 0;
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.footer__link:nth-of-type(5) {
-    margin-bottom: 48px;
+.footer__link:hover {
+    opacity: 0.8;
 }
 
 @media (min-width: 768px) {
@@ -19,9 +19,5 @@
         font-size: 16px;
         line-height: 18px;
         margin: 0;
-    }
-    
-    .footer__link:nth-of-type(5) {
-        margin-bottom: 0;
     }
 }

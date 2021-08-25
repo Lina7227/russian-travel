@@ -1,10 +1,12 @@
 .place__url-heading {
-    margin: 0 0 12px;
+    margin: 0;
     font-size: 12px;
     font-weight: 400;
     line-height: 12px;
     letter-spacing: 2px;
     color: #AAAAAA;
+    text-transform: uppercase;
+    box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -12,6 +14,5 @@
 @media (min-width: 768px) {
     .place__url-heading {
         line-height: 20px;
-        
     }
 }

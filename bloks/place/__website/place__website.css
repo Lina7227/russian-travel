@@ -1,25 +1,7 @@
 .place__website{
-    margin: 0 0 36px 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    margin: 0;
+    width: 100%;
+    align-self: end;
+    grid-area: website;
 }
 
-@media (min-width: 768px) {
-    .place__website{
-        margin: 0 0 48px 28px;
-        
-    }
-}
-
-@media (min-width: 1024px) {
-    .place__website{
-        margin: 0 0 48px 32px;
-    }
-}
-
-@media (min-width: 1280px) {
-    .place__website{
-        margin: 0 0 48px 40px;
-    }
-}

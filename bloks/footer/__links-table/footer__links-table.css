@@ -1,0 +1,14 @@
+.footer__links-table {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .footer__links-table {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}

@@ -1,35 +1,21 @@
 .place__paragraph {
-    margin: 0 16px;
+    margin: 0;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: #FFFFFF;
-    white-space: pre-line;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-.place__paragraph:nth-of-type(1) {
-    margin-top: 32px;
 }
 
 .place__paragraph:nth-of-type(2) {
     margin-top: 25px;
 }
 
-@media (min-width: 768px) {
-    .place__paragraph {
-        margin: 0  0 0 28px;
-    }
-
-    .place__paragraph:nth-of-type(1) {
-        margin-top: 0;
-    }
-}
-
 @media (min-width: 1024px) {
     .place__paragraph {
-        margin: 0  0 0 32px;
+        line-height: 29px;
+        font-size: 18px;
     }
 
     .place__paragraph:nth-of-type(2) {
@@ -37,8 +23,3 @@
     }
 }
 
-@media (min-width: 1024px) {
-    .place__paragraph {
-        margin: 0  0 0 40px;
-    }
-}

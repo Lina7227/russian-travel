@@ -1,10 +1,11 @@
 .cover__subtitle {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 16px;
     color: #FFFFFF;
     text-align: center;
     margin: 0;
+    padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -13,5 +14,6 @@
     .cover__subtitle {
         font-size: 18px;
         line-height: 22px;
+        margin: 0 100px;
     }
 }
