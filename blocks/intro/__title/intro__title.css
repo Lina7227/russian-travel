@@ -5,6 +5,7 @@
     color: #FFFFFF;
     margin: 0 0 40px 0;
     width: 80%;
+    text-align: left;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -15,5 +16,11 @@
         font-weight: 900;
         line-height: 58px;  
         width: 100%;  
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro__title { 
+        width: 800px;  
     }
 }
