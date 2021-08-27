@@ -1,5 +1,5 @@
 .footer__copyright {
-    margin: 0;
+    margin: 0 0 0 16px;
     font-size: 14px;
     font-weight: normal;
     line-height: 14px;
@@ -11,5 +11,6 @@
 @media (min-width: 768px) {
     .footer__copyright {
         line-height: 16px;
+        margin: 0;
     }
 }
